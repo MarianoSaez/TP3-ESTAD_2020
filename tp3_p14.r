@@ -15,4 +15,4 @@ print(paste('P( X = 3 ; r = 1) = ', pb))
 # c) El tercer hallazgo de petróleo se tenga con el quinto pozo perforado.
 rc = 3
 pc = dnbinom( 5-rc, rc, p )
-print(paste('P( X = 3 ; r = 3) = ', pc))
+print(paste('P( X = 5 ; r = 3) = ', pc))
